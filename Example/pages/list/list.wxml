@@ -1,0 +1,4 @@
+<!-- pages/list/list.wxml -->
+<view flex-direction="row" wx:for="{{list}}" wx:key="i">
+  <view style='padding:20rpx'>latitude:{{item.latitude}} ,longitude:{{item.longitude}}</view>
+</view>
