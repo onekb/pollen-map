@@ -6,17 +6,15 @@
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
-		"postcss": false,
-		"minified": false,
+		"postcss": true,
+		"minified": true,
 		"newFeature": true,
-		"nodeModules": true,
-		"autoAudits": false,
-		"uglifyFileName": false
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.5.2",
-	"appid": "wxaa15e556ade97607",
-	"projectname": "Example",
+	"appid": "",
+	"projectname": "Pollen",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

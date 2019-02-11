@@ -1,7 +1,6 @@
 // pages/index/index.js
 var app = getApp()
-const Pollen = require('pollen-map')
-
+import { Pollen } from '../../utils/Pollen'
 
 var map = null
 
@@ -69,7 +68,7 @@ Page({
           arr.push(Object.assign({}, markers))
         }
         //初始化pollen(放入初始数据)
-        var pollen = new Pollen.Pollen(arr)
+        var pollen = new Pollen(arr)
         //使用友好输出方式计算（放入配置好的圈/标记点）
         var pollenData = pollen.getGatherCirclesFriendly(circles, circlesMarkers)
         //将数据放到全局变量 让其他页面也能共享此数据

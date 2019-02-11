@@ -7,7 +7,7 @@
 
 ### 如何使用
 ```
-npm i pollen-map
+npm i pollen
 ```
 ```
 微信开发者工具 -> 工具 -> 构建npm

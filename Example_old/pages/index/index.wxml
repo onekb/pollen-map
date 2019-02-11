@@ -1,0 +1,8 @@
+<!-- pages/index/index.wxml -->
+<map id='mapId' show-location markers='{{markers}}' circles='{{circles}}' bindregionchange="regionchange" bindmarkertap="markertap">
+  <cover-view class='box'>
+    <button bindtap='rand'>生成随机</button>
+    <button bindtap='showCircles'>circles</button>
+    <button bindtap='showMarkers'>markers</button>
+  </cover-view>
+</map>

@@ -1,0 +1,17 @@
+{
+  "name": "mapgroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "pollen": "^0.0.1",
+    "pollen-map": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
